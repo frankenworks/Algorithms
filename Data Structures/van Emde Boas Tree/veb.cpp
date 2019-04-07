@@ -223,8 +223,8 @@ bool VEB::check(int x) {
 
 int VEB::findNext(int x) {
 	//smallest cluster case
-		//this must be done because 
-		//u=2 cases do not have a summary/cluster
+	//this must be done because 
+	//u=2 cases do not have a summary/cluster
 	if (u == 2) {
 		//should return *max
 		if (x == 1) {
@@ -279,8 +279,8 @@ int VEB::findNext(int x) {
 
 int VEB::findPrev(int x) {
 	//smallest cluster case
-		//this must be done because 
-		//u==2 cases do not have a summary/cluster
+	//this must be done because 
+	//u==2 cases do not have a summary/cluster
 	if (u == 2) {
 		//should return *min
 		if (x == 0) {
