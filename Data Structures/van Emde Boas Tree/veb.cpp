@@ -5,7 +5,7 @@
 this code can be improved by editing the getClusterSize function
 currently it gets the largest 2-tetration lower than root u for subcluster size
 eg. for u = 32, sqrt(u) = 5 and largest 2-tetration is 4: 8 clusters of size 4 will be created
-eg. for u = 1048576, sqrt(u) = 1024 and largest 2-tetration is 256: 4096 clusters of 256 will be created
+eg. for u = 1048576, sqrt(u) = 1024 and largest 2-tetration is 256: 4096 clusters of size 256 will be created
 as we can see, the function can be edited to accept sqrt(u) as a cluster size if it is a power of 2 as well
 */
 
