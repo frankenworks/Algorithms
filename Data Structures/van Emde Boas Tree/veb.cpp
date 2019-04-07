@@ -1,5 +1,5 @@
 #include <cmath>
-#include "VEB.h"
+#include "veb.h"
 
 //largest 2-tetration smaller than root u
 int getClusterSize(int x) {
