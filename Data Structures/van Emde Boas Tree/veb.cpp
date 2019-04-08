@@ -20,7 +20,7 @@ int getClusterSize(int x) {
 }
 
 VEB::VEB(int x)
-	:u(x), max(nullptr), min(nullptr),
+	:u(x), min(nullptr), max(nullptr),
 	summary(nullptr), cluster(nullptr) {
 	if (u > 2) {
 		//subu = number of clusters
