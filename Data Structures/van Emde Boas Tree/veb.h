@@ -7,6 +7,7 @@ The size of the subclusters will be a tetration of 2
 You can edit the code using subu = u/subu
 to instead have the number of subclusters into a tetration of 2
 limitations: assumption of bit vector size == 2^m, int m > 0
+because data type int is used, u<2^31
 */
 
 class VEB {
