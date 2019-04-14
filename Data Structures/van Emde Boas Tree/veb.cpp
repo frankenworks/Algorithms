@@ -10,7 +10,7 @@ as we can see, the function can be edited to accept sqrt(u) as a cluster size if
 */
 
 //largest 2-tetration smaller than root u
-int getClusterSize(int x) {
+inline int getClusterSize(int x) {
 	int a = (int)sqrt(x);
 	int b = 2;
 	for (int i = 2; i <= a; i = i * i) {
