@@ -347,20 +347,12 @@ int VEB::findPrev(int x) {
 }
 
 VEB::~VEB() {
-	if (min != nullptr) {
-		delete min;
-		min = nullptr;
-	}
-	if (max != nullptr) {
-		delete max;
-		max = nullptr;
-	}
-	if (summary != nullptr) {
-		delete summary;
-		summary = nullptr;
-	}
-	if (cluster != nullptr) {
-		delete[] cluster;
-		cluster = nullptr;
-	}
+	delete min;
+	min = nullptr;
+	delete max;
+	max = nullptr;
+	delete summary;
+	summary = nullptr;
+	delete[] cluster;
+	cluster = nullptr;
 }
