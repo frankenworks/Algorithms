@@ -1,6 +1,6 @@
 #include "sorting.h"
 
-// quicksort with Hoare partition scheme
+// quicksort with Hoare Partition Scheme
 void quicksort(int* arr, int size){
 	int left = 0;
 	int right = size - 1;
@@ -31,6 +31,12 @@ void quicksort(int* arr, int size){
 		quicksort(arr, pivot);
 		quicksort(arr + pivot + 1, size - pivot - 1);
 	}
+}
+
+// quicksort with Lomuto Partition Scheme
+void quicksortL(int* arr, int size) {
+	// Coming Soon
+	return;
 }
 
 // quicksort with Median of Medians
