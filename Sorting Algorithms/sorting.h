@@ -16,7 +16,6 @@ void selectsort(int*, int);
 void bubblesort(int*, int);
 
 // merge sort
-inline void mergecombine(int*, int);
 void mergesort(int*, int);
 
 // quicksort
@@ -25,5 +24,4 @@ void quicksortL(int*, int);
 void quicksortMoM(int*, int);
 
 // heapsort
-inline void heapify(int*, int, int);
 void heapsort(int*, int);
